@@ -47,7 +47,6 @@ function handleAllThoughtsSubmit(e){
       id,thoughtsDate, thoughts
     }
     setAllThoughts([...allThoughts, data]);
-    alert(thoughtsDate)
     setThoughtsDate('');
     setThoughts('');
     
